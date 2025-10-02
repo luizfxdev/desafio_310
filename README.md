@@ -22,9 +22,10 @@ No coração do universo Dragon Ball, **Shen Long** surge das Esferas do Dragão
 ### 🎯 A Regra do Desafio:
 
 1. O desafiante deve informar um número entre **100 e 999**
-2. Para vencer, é preciso aplicar a transformação: **repetir a soma dos quadrados dos dígitos** do número informado até que reste apenas um número de um dígito
-3. Se o resultado final for **1**, você vence e ganha seu desejo! 🎊
-4. Se for qualquer outro dígito, você deve enfrentar Goku em combate! ⚔️
+2. Pode-se usar números separados por vírgula **(ex: 256, 321, 999)**
+3. Para vencer, é preciso aplicar a transformação: **repetir a soma dos quadrados dos dígitos** do número informado até que reste apenas um número de um dígito
+4. Se o resultado final for **1**, você vence e ganha seu desejo! 🎊
+5. Se for qualquer outro dígito, você deve enfrentar Goku em combate! ⚔️
 
 ### 📝 Exemplo:
 
@@ -53,6 +54,7 @@ Para o número **321**:
 - 🎬 **Background Animado**: Vídeo de fundo em alta qualidade (3840x2160)
 - 🎵 **Controles de Áudio**: Sistema de música de fundo com play/pause
 - 📊 **Cálculo Detalhado**: Visualização passo a passo de todas as transformações
+- 🔢 **Múltiplos Números**: Calcule vários números de uma vez
 - 🔄 **Botões Interativos**: Efeito glow animado nos botões
 - 📱 **Design Responsivo**: Funciona perfeitamente em desktop, tablet e mobile
 - ♿ **Acessível**: Navegação por teclado e contraste adequado
@@ -100,10 +102,15 @@ cd desafio_310
    - Ou use um servidor local como Live Server (VS Code)
 
 4. **Jogue**:
-   - Digite um número entre 100 e 999
+   - Digite um número entre 100 e 999 
    - Clique em "⚡ CALCULAR ⚡"
    - Veja o resultado detalhado do desafio!
-
+     
+5. **Múltiplos Números**:
+   - Digite um números múltiplos 256, 321, 999
+   - Ou com espaços 256, 321 , 999
+   - Clique em "⚡ CALCULAR ⚡"
+   - Veja o resultado detalhado do desafio!
 ---
 
 ## 📊 Exemplos de Uso
@@ -129,6 +136,19 @@ Passo 1: 1² + 0² + 0² = 1 + 0 + 0 = 1
 6 transformações até chegar ao resultado final: 4
 ```
 **Resultado**: 4 → Enfrente Goku em combate!
+
+## 📊 Exemplos de Uso Múltiplo
+
+### Exemplo Completo
+**Entrada**: `256, 321, 999`
+
+Número 1 ``(256): 4 transformações → Resultado: 4``
+
+Número 2 ``(321): 11 transformações → Resultado: 4``
+
+Número 3 ``(999): 7 transformações → Resultado: 9``
+
+**Resultado**: Todos os números levam a diferentes resultados finais!
 
 ---
 
