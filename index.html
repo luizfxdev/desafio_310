@@ -11,39 +11,36 @@
     <video autoplay muted loop playsinline id="bg-video">
       <source src="assets/background.mp4" type="video/mp4" />
     </video>
-
     <!-- Controles de Áudio -->
     <div class="audio-controls">
       <button id="play-audio" class="audio-btn" title="Tocar música">🎵</button>
       <button id="pause-audio" class="audio-btn" title="Pausar música">⏸️</button>
     </div>
-
     <!-- Áudio de fundo (adicione seu arquivo de áudio na pasta assets) -->
     <audio id="background-audio" loop>
       <source src="assets/background-music.mp3" type="audio/mpeg" />
     </audio>
-
     <!-- Container principal -->
     <div class="main-container">
       <div class="challenge-card">
         <h1 class="title">O Enigma de Shen Long 🐉</h1>
         <p class="description">
-          Shen Long surge e lança seu desafio! Escolha um número entre <strong>100 e 999</strong>. Resolva o enigma e
-          ganhe seu desejo... ou enfrente Goku!
+          Shen Long surge e lança seu desafio! Escolha um ou mais números entre <strong>100 e 999</strong>. Resolva o
+          enigma e ganhe seu desejo... ou enfrente Goku!
         </p>
-
         <!-- Input de entrada -->
         <div class="input-section">
-          <label for="number-input">Digite um número (100-999):</label>
-          <input type="number" id="number-input" placeholder="Ex: 321" min="100" max="999" tabindex="1" />
+          <label for="number-input">Digite um ou mais números (100-999):</label>
+          <input type="text" id="number-input" placeholder="Ex: 321 ou 256, 321, 999" tabindex="1" />
+          <small style="display: block; margin-top: 8px; color: rgba(236, 252, 203, 0.7); font-size: 0.9rem">
+            💡 Dica: Use vírgulas para calcular múltiplos números de uma vez
+          </small>
         </div>
-
         <!-- Botões de ação -->
         <div class="buttons-container">
           <button class="glow-on-hover" id="calculate-btn" type="button" tabindex="2">⚡ CALCULAR ⚡</button>
           <button class="glow-on-hover" id="back-btn" type="button" tabindex="3">↩️ VOLTAR ↩️</button>
         </div>
-
         <!-- Seção de resultado -->
         <div class="result-section" id="result-section">
           <h2 class="result-title">📊 Resultado do Desafio</h2>
@@ -53,7 +50,6 @@
         </div>
       </div>
     </div>
-
     <script src="script.js"></script>
   </body>
 </html>
